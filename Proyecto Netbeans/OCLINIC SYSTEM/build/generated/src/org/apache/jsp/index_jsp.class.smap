@@ -7,12 +7,50 @@ JSP
 index.jsp
 + 1 head.jsp
 partes/head.jsp
-+ 2 jumbotron.jsp
++ 2 MenuPrincipal.jsp
+partes/MenuPrincipal.jsp
++ 3 jumbotron.jsp
 partes/jumbotron.jsp
++ 4 Bienvenida.jsp
+partes/Bienvenida.jsp
++ 5 Conocenos.jsp
+partes/Conocenos.jsp
++ 6 Servicios.jsp
+partes/Servicios.jsp
++ 7 Staff.jsp
+partes/Staff.jsp
++ 8 Garantia.jsp
+partes/Garantia.jsp
++ 9 Contactenos.jsp
+partes/Contactenos.jsp
++ 10 Derecho.jsp
+partes/Derecho.jsp
++ 11 Final.jsp
+partes/Final.jsp
 *L
-5,6:50
-5#1,11:56
-10#0,3:66
-5#2,9:69
-12#0,6:78
+5,6:59
+5#1,11:65
+10#0,4:75
+5#2,42:79
+47:121,2
+48,51:123
+13#0,2:173
+5#3,9:175
+14#0,2:184
+5#4,30:186
+15#0,2:215
+5#5,78:217
+16#0,2:295
+5#6,70:297
+17#0,2:366
+5#7,49:368
+18#0,2:417
+5#8,34:419
+19#0,2:452
+5#9,68:454
+20#0,4:521
+5#10,24:525
+23#0,2:548
+5#11,9:550
+24#0,13:559
 *E
