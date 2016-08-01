@@ -39,26 +39,26 @@
 
                         </ul>
                     </li>
-                    <li><a href="oferta.jsp#"onclick="$('.oferta').animatescroll({padding: 71})">Ofertas</a></li>
+                    <li><a href="partes/PRUEVAS.jsp#"onclick="$('.oferta').animatescroll({padding: 71})">Ofertas</a></li>
                     <li><a href="#" onclick="$('.contactos').animatescroll({padding: 71})">Contactenos</a></li>
                         <%--login--%>
                     <script>
-    $(document).ready(function () {
-        $("#ValidarUsuario").submit(function () {
-            $.post("ValidarUsuario", $("#ValidarUsuario").serialize(), function (data) {
-                perfil = jQuery.trim(data);
-                if (perfil == 1)
-        $("#mensajeingreso").html("<h1>Usuario o Clave no Valida</h1>");          
-        //document.location.href = "MenuAdmin.jsp";
-                else
-                    $("#mensajeingreso").html("<h1>Usuario o Clave no Valida</h1>");
-            });
-            return false;
-        });
-    });
-</script> 
+                        $(document).ready(function () {
+                            $("#ValidarUsuario").submit(function () {
+                                $.post("ValidarUsuario", $("#ValidarUsuario").serialize(), function (data) {
+                                    perfil = jQuery.trim(data);
+                                    if (perfil == 1)
+                                        $("#mensajeingreso").html("<h1>Usuario o Clave no Valida</h1>");
+                                    //document.location.href = "MenuAdmin.jsp";
+                                    else
+                                        $("#mensajeingreso").html("<h1>Usuario o Clave no Valida</h1>");
+                                });
+                                return false;
+                            });
+                        });
+                    </script> 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle glyphicon glyphicon-lock" data-toggle="dropdown"><span class="caret"></span></a>
+                        <a href="partes/Login.jsp#" class="dropdown-toggle glyphicon glyphicon-lock" data-toggle="dropdown"><span class="caret"></span></a>
                         <ul id="login-dp" class="dropdown-menu">
                             <li>
                                 <div class="row">
@@ -75,12 +75,12 @@
                                             </div>
                                             <div class="form-group">
                                                 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-                                               
+
                                             </div>
                                         </form>
                                     </div>
                                     <div class="bottom text-center">
-                                           <div ></div>
+                                        <div ></div>
                                         <a id="mensajeingreso"><b></b></a>
                                     </div>
                                 </div>
