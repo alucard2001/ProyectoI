@@ -1,11 +1,8 @@
-<%-- 
-    Document   : MenuPrincipal
-    Created on : 31-jul-2016, 23:15:28
-    Author     : Tatiana Montilla
+9<%-- 
+    Document   : Menu
+    Created on : 28-feb-2016, 17:27:52
+    Author     : Alucard
 --%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
 
 <header> 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="display: block;">
@@ -21,13 +18,14 @@
             </div>
             <!--menu-->
             <div class="collapse navbar-collapse " id="navegacion-sf" >
-                <ul class="nav navbar-nav navbar-right"> 
+                <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.jsp" onclick="$('header').animatescroll({padding: 71})">Inicio</a></li> 
-                
+
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" role="button">Conocenos <span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            Conocenos <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a class="navbar-brand page-scroll" href="#" onclick="$('.services').animatescroll({padding: 71})">Servicios</a></li>
+                            <li><a href="#" onclick="$('.services').animatescroll({padding: 71})">Servicios</a></li>
                             <li class="divider"></li>
                             <li><a href="#" onclick="$('.quienessomos').animatescroll({padding: 71})">Quienes Somos</a></li>
                             <li class="divider"></li>
@@ -40,9 +38,8 @@
                             <li><a href="#" onclick="$('.garantia').animatescroll({padding: 71})">Garantia</a></li>
 
                         </ul>
-                
                     </li>
-                    <li><a href="partes/Ofertas.jsp#"onclick="$('.oferta').animatescroll({padding: 71})">Ofertas</a></li>
+                    <li><a href="oferta.jsp#"onclick="$('.oferta').animatescroll({padding: 71})">Ofertas</a></li>
                     <li><a href="#" onclick="$('.contactos').animatescroll({padding: 71})">Contactenos</a></li>
                         <%--login--%>
                     <script>
@@ -61,7 +58,7 @@
     });
 </script> 
                     <li class="dropdown">
-                        <a href="partes/Login.jsp#" class="dropdown-toggle glyphicon glyphicon-lock" data-toggle="dropdown"><span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle glyphicon glyphicon-lock" data-toggle="dropdown"><span class="caret"></span></a>
                         <ul id="login-dp" class="dropdown-menu">
                             <li>
                                 <div class="row">
@@ -94,4 +91,3 @@
         </div>
     </nav>
 </header>
-

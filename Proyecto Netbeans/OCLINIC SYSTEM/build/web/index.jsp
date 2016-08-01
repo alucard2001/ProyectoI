@@ -8,28 +8,11 @@
 <!DOCTYPE html>
 <html>
     <%@include file="partes/head.jsp" %>
-    <body> 
-        
-        <%@include file="partes/MenuPrincipal.jsp" %>
-        <%@include file="partes/jumbotron.jsp" %>
-        <%@include file="partes/Bienvenida.jsp" %>
-        <%@include file="partes/Conocenos.jsp" %>
-        <%@include file="partes/Servicios.jsp" %>
-        <%@include file="partes/Staff.jsp" %>
-        <%@include file="partes/Garantia.jsp" %>
-        <%@include file="partes/Contactenos.jsp" %>
-
-
-        <%@include file="partes/Derecho.jsp" %>
-        <%@include file="partes/Final.jsp" %>
-
-
-
-
-
-
-
-    </body>
+     <body> 
+         <%@include file="partes/Menu.jsp" %>
+         <%@include file="partes/jumbotron.jsp" %>
+         
+     </body>
 
 
 </html>
